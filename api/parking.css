@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: "Inter", sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
+}
+
+body{
+    display:grid;
+    grid-template-columns: 20% 80%;
+}
+
+.update{
+    background-color: #114232;
+    height: 100vh;
+}
+
+.parkingArea{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    width:60%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.box{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    width:150px;
+    border-radius: 20px;
+
+    background-color: aliceblue;
+}
+
+.parkContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin:auto;
+}
